@@ -18,6 +18,8 @@ export default class Controls {
         this.controls.enableDamping = true;
         this.controls.enableZoom = true;
         this.controls.enablePan = false;
+        this.controls.autoRotate = true;
+        this.controls.autoRotateSpeed = 2;
         this.controls.maxDistance = 8;
         this.controls.minDistance = 8;       
      }
